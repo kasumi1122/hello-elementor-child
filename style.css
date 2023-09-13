@@ -1,0 +1,49 @@
+/*
+Theme Name: hello-elementor-child
+Version: 1.6
+Template: hello-elementor
+*/
+
+.page-id-23 h1.entry-title{
+  display:none;
+  }
+
+  @media screen and (max-width: 768px) {
+    body{ position: relative;}
+
+    .elementor-column.elementor-col-50.elementor-top-column.elementor-element.elementor-element-2a336f8{
+      position: absolute;
+    }
+
+    #site-header {
+      position: fixed;
+      top: 0;
+      z-index: 9999999999999;
+      width: 98%;}
+
+    div.elementor-23 .elementor-element.elementor-element-3ae3516{
+      text-align: center;
+      font-size: 8vw;
+    }
+    
+    div.elementor-23 .elementor-element.elementor-element-37cef7b{
+      text-align: center;
+      font-size: 6vw;
+      line-height: 1  ;
+    } 
+    }
+  
+  @media screen and (max-width: 576px) {
+    div.elementor-23 .elementor-element.elementor-element-3ae3516{
+      text-align: center;
+      font-size: 8vw;
+    }
+    
+    div.elementor-23 .elementor-element.elementor-element-37cef7b{
+      text-align: center;
+      font-size: 6vw;
+      line-height: 1;
+
+    } 
+
+  }
